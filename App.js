@@ -14,8 +14,8 @@ export default function App() {
           </Text>
 
           <View style={styles.items}>
-            <Task text="Task One"/>
-            <Task text="Task Two"/>
+            <Task text='Task One'/>
+            <Task text='Task Two'/>
           </View>
 
       </View>
