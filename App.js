@@ -12,7 +12,7 @@ export default function App() {
           </Text>
 
           <View style={styles.items}>
-
+          
           </View>
 
       </View>
@@ -25,7 +25,13 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: "#E8EAED",
   },
-  tasksWrapper: {},
-  sectionTitle: {},
+  tasksWrapper: {
+    paddingTop: 80,
+    paddingHorizontal: 20
+  },
+  sectionTitle: {
+    fontSize: 24,
+    fontWeight: 'bold'
+  },
   items: {},
 });
